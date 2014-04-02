@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>19A17287-D57C-409C-8EE6-E0B4CA6A3277</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VoIPTestApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>25D3CCF5-D2A6-4C19-BA40-7B4CD99874EA</key>
+		<string>https://github.com/titusabraham/ios-audio-app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VoIPTestApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>25D3CCF5-D2A6-4C19-BA40-7B4CD99874EA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/titusabraham/ios-audio-app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>25D3CCF5-D2A6-4C19-BA40-7B4CD99874EA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>25D3CCF5-D2A6-4C19-BA40-7B4CD99874EA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-audio-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>

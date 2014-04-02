@@ -1,0 +1,50 @@
+Code walkthrough:
+
+************************************************************************************************
+Recording and Playback of audio
+************************************************************************************************
+
+When the app is launched, app initializes iOS's audio handler by calling InitializeiOSAudioHandler() followed by setting audio route to Speaker.
+
+InitializeiOSAudioHandler():
+{
+1. Set the callback functions for recording and playing. These are the functions that get called respectively when PCM frames are recorded and played.
+2. Initialize audio session by calling initAudioSession()
+3. Initialize audio streams by calling initAudioStreams()
+}
+
+initAudioSession():
+{
+1. Invoke AudioSessionInitialize()
+2. Set PlayAndRecord audio session category
+3. Set the preferred hardware IO buffer duration
+4. Set the preferred hardware sample rate
+5. Set session mode to VoiceChat
+6. Remaining code snippet of mixing and enable BT are present, but they are not used in this app, so they can be ignored.
+}
+
+initAudioStreams():
+{
+1. Use kAudioUnitSubType_VoiceProcessingIO as component subtype when instantiating Audio Component
+2. Enable IO
+3. Set recording callback
+4. Set playback(render) callback
+5. Enable "kAudioUnitProperty_ShouldAllocateBuffer" property
+6. Fill up all the values for AudioStreamBasicDescription and set up input and output stream with these properties
+7. Initialize audio unit by calling AudioUnitInitialize()
+}
+
+Now, if a user presses on "record", recordStart() gets invoked which starts recording.
+This will trigger invocation of AudioOutputUnitStart()
+If user presses on "stop recording", then recording is stopped by invoking AudioOutputUnitStop() and AudioUnitUninitialize()
+If user now presses on "start playing", app starts the audio unit and plays out the frames that were recorded
+
+************************************************************************************************
+Playing of Tones
+************************************************************************************************
+When user presses on "tones", app invokes StartPlayingRandomTone()
+We have kept 3 sample tone files for Apple engineer to play with. Tone2.wav is currently used in the app. However,
+one can change it by changing the name of the tone in StartPlayingRandomTone() function.
+Tones are being played using AVAudioPlayer.
+
+

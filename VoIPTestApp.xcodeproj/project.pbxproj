@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74C5461A18DCEA9000E65A02 /* Tone1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74C5461618DCEA9000E65A02 /* Tone1.wav */; };
+		74C5461B18DCEA9000E65A02 /* Tone2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74C5461718DCEA9000E65A02 /* Tone2.wav */; };
+		74C5461D18DCEA9000E65A02 /* Tone3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74C5461918DCEA9000E65A02 /* Tone3.wav */; };
+		F12DA69B18DBF821001EB4FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12DA69A18DBF821001EB4FD /* Foundation.framework */; };
+		F12DA69D18DBF821001EB4FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12DA69C18DBF821001EB4FD /* CoreGraphics.framework */; };
+		F12DA69F18DBF821001EB4FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12DA69E18DBF821001EB4FD /* UIKit.framework */; };
+		F12DA6A518DBF822001EB4FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F12DA6A318DBF822001EB4FD /* InfoPlist.strings */; };
+		F12DA6A718DBF822001EB4FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F12DA6A618DBF822001EB4FD /* main.m */; };
+		F12DA6AB18DBF822001EB4FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12DA6AA18DBF822001EB4FD /* AppDelegate.m */; };
+		F12DA6AE18DBF822001EB4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12DA6AC18DBF822001EB4FD /* Main.storyboard */; };
+		F12DA6B118DBF822001EB4FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12DA6B018DBF822001EB4FD /* ViewController.m */; };
+		F12DA6B318DBF822001EB4FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12DA6B218DBF822001EB4FD /* Images.xcassets */; };
+		F18CD1F418EBA30100B29F7D /* frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18CD1EB18EBA30100B29F7D /* frame.cpp */; };
+		F1DADEAF18DC0915003A6044 /* QiOSAudioHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1DADEA518DC0915003A6044 /* QiOSAudioHandler.mm */; };
+		F1DADEB818DC0C0F003A6044 /* audiohandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1DADEB618DC0C0F003A6044 /* audiohandler.mm */; };
+		F1DADEBB18DC1486003A6044 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DADEBA18DC1486003A6044 /* AudioToolbox.framework */; };
+		F1DADEBD18DC148F003A6044 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DADEBC18DC148F003A6044 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74C5461618DCEA9000E65A02 /* Tone1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Tone1.wav; path = Tones/Tone1.wav; sourceTree = "<group>"; };
+		74C5461718DCEA9000E65A02 /* Tone2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Tone2.wav; path = Tones/Tone2.wav; sourceTree = "<group>"; };
+		74C5461918DCEA9000E65A02 /* Tone3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Tone3.wav; path = Tones/Tone3.wav; sourceTree = "<group>"; };
+		F12DA69718DBF821001EB4FD /* VoIPTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoIPTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12DA69A18DBF821001EB4FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F12DA69C18DBF821001EB4FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F12DA69E18DBF821001EB4FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F12DA6A218DBF822001EB4FD /* VoIPTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoIPTestApp-Info.plist"; sourceTree = "<group>"; };
+		F12DA6A418DBF822001EB4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F12DA6A618DBF822001EB4FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F12DA6A818DBF822001EB4FD /* VoIPTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoIPTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		F12DA6A918DBF822001EB4FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F12DA6AA18DBF822001EB4FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F12DA6AD18DBF822001EB4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F12DA6AF18DBF822001EB4FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F12DA6B018DBF822001EB4FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F12DA6B218DBF822001EB4FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F12DA6B918DBF822001EB4FD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F18CD1EB18EBA30100B29F7D /* frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = frame.cpp; sourceTree = "<group>"; };
+		F18CD1EC18EBA30100B29F7D /* frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frame.h; sourceTree = "<group>"; };
+		F18CD1EE18EBA30100B29F7D /* ring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ring.h; sourceTree = "<group>"; };
+		F18CD1F318EBA30100B29F7D /* VocDataTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VocDataTypeDef.h; sourceTree = "<group>"; };
+		F1DADE9818DC0915003A6044 /* QiOSAudioHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiOSAudioHandler.h; sourceTree = "<group>"; };
+		F1DADEA518DC0915003A6044 /* QiOSAudioHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QiOSAudioHandler.mm; sourceTree = "<group>"; };
+		F1DADEB618DC0C0F003A6044 /* audiohandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = audiohandler.mm; sourceTree = "<group>"; };
+		F1DADEB718DC0C0F003A6044 /* audiohandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audiohandler.h; sourceTree = "<group>"; };
+		F1DADEBA18DC1486003A6044 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F1DADEBC18DC148F003A6044 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F1DADEBE18DC1495003A6044 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12DA69418DBF821001EB4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DADEBD18DC148F003A6044 /* AVFoundation.framework in Frameworks */,
+				F1DADEBB18DC1486003A6044 /* AudioToolbox.framework in Frameworks */,
+				F12DA69D18DBF821001EB4FD /* CoreGraphics.framework in Frameworks */,
+				F12DA69F18DBF821001EB4FD /* UIKit.framework in Frameworks */,
+				F12DA69B18DBF821001EB4FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74C5461518DCEA2800E65A02 /* Tones */ = {
+			isa = PBXGroup;
+			children = (
+				74C5461618DCEA9000E65A02 /* Tone1.wav */,
+				74C5461718DCEA9000E65A02 /* Tone2.wav */,
+				74C5461918DCEA9000E65A02 /* Tone3.wav */,
+			);
+			name = Tones;
+			sourceTree = "<group>";
+		};
+		F12DA68E18DBF821001EB4FD = {
+			isa = PBXGroup;
+			children = (
+				F12DA6A018DBF821001EB4FD /* VoIPTestApp */,
+				F12DA69918DBF821001EB4FD /* Frameworks */,
+				F12DA69818DBF821001EB4FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F12DA69818DBF821001EB4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12DA69718DBF821001EB4FD /* VoIPTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12DA69918DBF821001EB4FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1DADEBE18DC1495003A6044 /* AudioUnit.framework */,
+				F1DADEBC18DC148F003A6044 /* AVFoundation.framework */,
+				F1DADEBA18DC1486003A6044 /* AudioToolbox.framework */,
+				F12DA69A18DBF821001EB4FD /* Foundation.framework */,
+				F12DA69C18DBF821001EB4FD /* CoreGraphics.framework */,
+				F12DA69E18DBF821001EB4FD /* UIKit.framework */,
+				F12DA6B918DBF822001EB4FD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F12DA6A018DBF821001EB4FD /* VoIPTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				F18CD1EA18EBA30100B29F7D /* common */,
+				74C5461518DCEA2800E65A02 /* Tones */,
+				F1DADE9518DC0915003A6044 /* inc */,
+				F1DADEA118DC0915003A6044 /* src */,
+				F12DA6A918DBF822001EB4FD /* AppDelegate.h */,
+				F12DA6AA18DBF822001EB4FD /* AppDelegate.m */,
+				F12DA6AC18DBF822001EB4FD /* Main.storyboard */,
+				F12DA6AF18DBF822001EB4FD /* ViewController.h */,
+				F12DA6B018DBF822001EB4FD /* ViewController.m */,
+				F12DA6B218DBF822001EB4FD /* Images.xcassets */,
+				F12DA6A118DBF822001EB4FD /* Supporting Files */,
+				F1DADEB618DC0C0F003A6044 /* audiohandler.mm */,
+				F1DADEB718DC0C0F003A6044 /* audiohandler.h */,
+			);
+			path = VoIPTestApp;
+			sourceTree = "<group>";
+		};
+		F12DA6A118DBF822001EB4FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F12DA6A218DBF822001EB4FD /* VoIPTestApp-Info.plist */,
+				F12DA6A318DBF822001EB4FD /* InfoPlist.strings */,
+				F12DA6A618DBF822001EB4FD /* main.m */,
+				F12DA6A818DBF822001EB4FD /* VoIPTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F18CD1EA18EBA30100B29F7D /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F18CD1EB18EBA30100B29F7D /* frame.cpp */,
+				F18CD1EC18EBA30100B29F7D /* frame.h */,
+				F18CD1EE18EBA30100B29F7D /* ring.h */,
+				F18CD1F318EBA30100B29F7D /* VocDataTypeDef.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		F1DADE9518DC0915003A6044 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				F1DADE9818DC0915003A6044 /* QiOSAudioHandler.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		F1DADEA118DC0915003A6044 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F1DADEA518DC0915003A6044 /* QiOSAudioHandler.mm */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12DA69618DBF821001EB4FD /* VoIPTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12DA6C918DBF822001EB4FD /* Build configuration list for PBXNativeTarget "VoIPTestApp" */;
+			buildPhases = (
+				F12DA69318DBF821001EB4FD /* Sources */,
+				F12DA69418DBF821001EB4FD /* Frameworks */,
+				F12DA69518DBF821001EB4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoIPTestApp;
+			productName = VoIPTestApp;
+			productReference = F12DA69718DBF821001EB4FD /* VoIPTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12DA68F18DBF821001EB4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Qualcomm;
+			};
+			buildConfigurationList = F12DA69218DBF821001EB4FD /* Build configuration list for PBXProject "VoIPTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F12DA68E18DBF821001EB4FD;
+			productRefGroup = F12DA69818DBF821001EB4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12DA69618DBF821001EB4FD /* VoIPTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12DA69518DBF821001EB4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C5461A18DCEA9000E65A02 /* Tone1.wav in Resources */,
+				F12DA6B318DBF822001EB4FD /* Images.xcassets in Resources */,
+				F12DA6A518DBF822001EB4FD /* InfoPlist.strings in Resources */,
+				74C5461D18DCEA9000E65A02 /* Tone3.wav in Resources */,
+				F12DA6AE18DBF822001EB4FD /* Main.storyboard in Resources */,
+				74C5461B18DCEA9000E65A02 /* Tone2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12DA69318DBF821001EB4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12DA6B118DBF822001EB4FD /* ViewController.m in Sources */,
+				F1DADEB818DC0C0F003A6044 /* audiohandler.mm in Sources */,
+				F12DA6AB18DBF822001EB4FD /* AppDelegate.m in Sources */,
+				F1DADEAF18DC0915003A6044 /* QiOSAudioHandler.mm in Sources */,
+				F12DA6A718DBF822001EB4FD /* main.m in Sources */,
+				F18CD1F418EBA30100B29F7D /* frame.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F12DA6A318DBF822001EB4FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12DA6A418DBF822001EB4FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F12DA6AC18DBF822001EB4FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12DA6AD18DBF822001EB4FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12DA6C718DBF822001EB4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F12DA6C818DBF822001EB4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F12DA6CA18DBF822001EB4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoIPTestApp/VoIPTestApp-Prefix.pch";
+				INFOPLIST_FILE = "VoIPTestApp/VoIPTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F12DA6CB18DBF822001EB4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoIPTestApp/VoIPTestApp-Prefix.pch";
+				INFOPLIST_FILE = "VoIPTestApp/VoIPTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12DA69218DBF821001EB4FD /* Build configuration list for PBXProject "VoIPTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12DA6C718DBF822001EB4FD /* Debug */,
+				F12DA6C818DBF822001EB4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12DA6C918DBF822001EB4FD /* Build configuration list for PBXNativeTarget "VoIPTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12DA6CA18DBF822001EB4FD /* Debug */,
+				F12DA6CB18DBF822001EB4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F12DA68F18DBF821001EB4FD /* Project object */;
+}
